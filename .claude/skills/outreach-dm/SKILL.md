@@ -54,6 +54,11 @@ Follow this process every time you draft an outreach message to a prospect.
   concepts. Keep it energetic, fast-paced, and simple.
 
 ## Before Sending
+- **Every email draft goes out as HTML with a clickable portfolio link.**
+  Write it as `<a href="https://www.mykytakryvyi.art">www.mykytakryvyi.art</a>`
+  in `htmlBody`, in the body and in the signature, never as plain text that
+  the reader has to copy. Mykyta, 14 Oct 2026: plain-text links can't be
+  clicked. For a reply, keep the quoted thread under the new HTML body.
 - Re-read against `context/business_info.md` Standing Business Rules —
   don't pre-discount, don't reference old prices.
 - If this is a returning prospect, confirm their status isn't "stalled" or
