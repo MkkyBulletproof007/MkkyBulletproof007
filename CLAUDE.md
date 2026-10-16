@@ -40,9 +40,11 @@ judgment calls, decide and say what you assumed.
   - `files/` — screenshots, contracts, reference images, exported reels,
     brand assets. Treat these as real source material.
 - **`.claude/skills/`** (this repo) — the process for repeatable tasks:
-  outreach messages, proposals, pricing checks, shot lists, captions, and
-  negotiation. `negotiation` is for real friction only, never routine
-  messages, and never more than one tactic from it in a single message.
+  outreach messages, proposals, pricing checks, shot lists, captions,
+  negotiation, and virality. `negotiation` is for real friction only, never
+  routine messages, and never more than one tactic from it in a single
+  message. `virality` is read every time before any advice on posting, going
+  viral, hooks, titles, thumbnails, or YouTube and Instagram reach.
 
 ## Non-Negotiable Rules
 - Draft and show. Never send an email or message unless Mykyta says send, in
