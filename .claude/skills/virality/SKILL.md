@@ -25,6 +25,12 @@ Mykyta is a filmmaker who sells films. **Views are a means, not the goal.**
   or thumbnail is checked against the record first. Never use a framing the
   subject has rejected; Welbry is never "closing" and John is never "the
   last" anything.
+- **No self-promotion inside a sentimental or personal documentary.** No end
+  card with the website, no offer, no call to action in the film itself.
+  Mykyta, 17 Oct 2026: *"i will never promote myself like that on this
+  sentimental documentary."* The film ends on the subject. The enquiry path
+  lives outside the film: the description, a pinned comment, the bio. A quiet
+  "A film by Mykyta Kryvyi" credit is the most the film itself carries.
 - Client-facing text follows `context/brand_voice.md`: no emojis, no em
   dashes, no double hyphens, no parentheses. Captions go through
   `caption-writer`.
@@ -170,10 +176,16 @@ a packaging problem. It is not a good idea yet.**
 - **Log-line:** a British soldier came to Cyprus in 1978, his wife gave him a
   stained glass mirror, and 39 years of glass later he calls that mirror
   junk.
-- **Film title:** "Technician, Not an Artist". **YouTube title:** "His Wife
-  Gave Him a Stained Glass Mirror. Now He Calls It Junk."
-- **Thumbnail:** John lifting the finished piece to the window, his face in
-  coloured light.
+- **Film title:** "Technician, Not an Artist". **YouTube title:** "The Mirror
+  His Wife Gave Him Started 39 Years of Stained Glass", chosen after /court
+  over "Now He Calls It Junk", which read as mocking the gift.
+- **Thumbnail:** built from a frame he actually has: John at the soldering
+  iron, relit, "39 YEARS" on the dark side. Only design thumbnails from real
+  frames; ask what exists before describing a shot.
+- **Ending:** last line with his laugh, black, the film title, "John Welch.
+  Welbry, Limassol, since 1987.", out. No end card.
+- **Release:** the full film first on YouTube and Instagram the same day,
+  then cutdowns and behind-the-scenes over 1 to 2 weeks. That is his habit.
 - **Shorts:** "money back in three hours", "piece of junk", "technician, not
   an artist", the snap of the glass.
 - **Distribution:** John's students, British expats and the British Forces
