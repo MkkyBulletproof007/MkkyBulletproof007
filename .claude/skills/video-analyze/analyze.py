@@ -18,6 +18,7 @@ import argparse
 import json
 import math
 import re
+import shutil
 import subprocess
 import sys
 from pathlib import Path
@@ -82,8 +83,11 @@ def grab_frames(video, out, count, duration):
     cols = 4 if count > 6 else count
     rows = math.ceil(count / cols)
     sheet = out / "contact_sheet.jpg"
-    run(["ffmpeg", "-y", "-loglevel", "error", "-pattern_type", "glob",
-         "-i", str(frames / "frame_*.jpg"),
+    # concat list instead of a glob pattern, which ffmpeg does not support on Windows
+    listing = frames / "frames.txt"
+    listing.write_text("".join(f"file '{p.resolve().as_posix()}'\n" for p in paths), encoding="utf-8")
+    run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
+         "-i", str(listing),
          "-vf", f"scale=480:-2,tile={cols}x{rows}:padding=6:color=black",
          "-frames:v", "1", "-q:v", "3", str(sheet)])
     return paths, sheet
@@ -127,7 +131,7 @@ def main():
         slug = re.sub(r"[^A-Za-z0-9_-]+", "_", str(info.get("id") or "video"))[:60]
         out = tmp.parent / slug
         if out.exists():
-            subprocess.run(["rm", "-rf", str(out)], check=True)
+            shutil.rmtree(out)
         tmp.rename(out)
         video = out / video.name
 

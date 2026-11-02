@@ -20,6 +20,8 @@ Options:
 
 It installs `yt-dlp` and `faster-whisper` itself if they are missing; `ffmpeg` must already be there.
 
+On Mykyta's Windows PC: use `python` or `py` instead of `python3`. If `ffmpeg` is missing, install it once with `winget install Gyan.FFmpeg` and open a new terminal. YouTube links work there; this cloud session gets blocked by YouTube.
+
 ## Then read the results
 1. Open `contact_sheet.jpg` with the Read tool to see the whole video at a glance; open single frames from `frames/` for detail.
 2. Read `transcript.txt` for what is said, with `[mm:ss]` stamps.
